@@ -20,4 +20,4 @@ const users = [
 ];
 //const timestamp = new Date().toISOString();
 
-module.exports = { users, timestamp };
+module.exports = { users,  };
