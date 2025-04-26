@@ -2,7 +2,7 @@
 
 const users = [
   {
-    id: 1,
+    id: "U001",
     nickname: "Boss",
     fullname: "Sahasawat Rueankaew",
     age: 25,
@@ -10,9 +10,9 @@ const users = [
     member_no: 1,
   },
   {
-    id: 2,
+    id: "U002",
     nickname: "Boss",
-    fullname: "Watcharin Ketnuto",
+    fullname: "Watcharin Ketnuti",
     age: 23,
     register_date: "2025-04-24",
     member_no: 2,
@@ -20,4 +20,4 @@ const users = [
 ];
 //const timestamp = new Date().toISOString();
 
-module.exports = { users,  };
+module.exports = { users, };

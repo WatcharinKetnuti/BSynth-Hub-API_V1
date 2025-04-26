@@ -1,8 +1,15 @@
 extends layout
-
 block content
   h1= title
   p Welcome to #{title}
-  ui AllData
+
+  h2 All Data
+  ui Users
   li 
-    a(href='/users') Users
+    a(href='/users') All Users Data
+  ui Projects  
+  li 
+    a(href='/projects') All Projects Data
+  li
+    a(href='/projects/U001') Project of userID = U001
+
